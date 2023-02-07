@@ -8,4 +8,4 @@ Containers
 4. Producer - generates random names and publishes them to Kafka
 5. Consumer - consumes names, sends them to an API that guesses their gender, prints it out
 
-To launch the project, run `docker-compose up -d --build` in root directory. Consumer and producer containers both write to log. It is normal for them to occasionally throw exceptions about broker being unavailable
+To launch the project, run `docker-compose up --build` in root directory. Consumer and producer containers both write to log. It is normal for them to occasionally throw exceptions about broker being unavailable
