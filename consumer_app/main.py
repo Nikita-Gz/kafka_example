@@ -1,5 +1,5 @@
-# this program recieves a message with a name and uses
-# API to guess name's gender
+# this program recieves a message with a name,
+# and uses API to guess name's gender
 
 import json
 import requests
