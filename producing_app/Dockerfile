@@ -3,5 +3,6 @@ COPY . /app
 WORKDIR /app
 
 RUN pip install kafka-python
+RUN pip install faker
 
-CMD ["python", "main.py"]
+CMD ["python", "-u", "main.py"]
