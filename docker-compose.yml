@@ -51,4 +51,10 @@ services:
     container_name: producer
     depends_on:
       - init_broker
+  
+  consumer:
+    build: ./consumer_app/
+    container_name: consumer
+    depends_on:
+      - init_broker
     
