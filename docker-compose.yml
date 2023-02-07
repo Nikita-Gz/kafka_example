@@ -55,6 +55,7 @@ services:
   consumer:
     build: ./consumer_app/
     container_name: consumer
+    restart: on-failure
     depends_on:
       - init_broker
     
